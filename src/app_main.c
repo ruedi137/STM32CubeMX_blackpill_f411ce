@@ -23,9 +23,9 @@ int app_main(void) {
       }
 }
 
-void SysTick_Handler(void) {
-  HAL_IncTick();
-}
+// void SysTick_Handler(void) {
+//   HAL_IncTick();
+// }
 
 /* void LED_Init() {
   LED_GPIO_CLK_ENABLE();
